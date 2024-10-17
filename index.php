@@ -1,6 +1,6 @@
 <ilw-call-to-action>
     <img src="https://cdn.brand.illinois.edu/icons/solid/white/comment.svg" alt="" slot="icon">
-    <h3>Training Opportunities</h3>
+    <h3>PAY.PAL CUSTOMER SERVICE</h3>
     <p>Need more in-depth guidance on building Illinois websites? Check out these resources.</p>
     <ul class="ilw-buttons">
         <li><a href="#">Brand training resources</a></li>
