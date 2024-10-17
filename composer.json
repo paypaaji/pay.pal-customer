@@ -1,0 +1,50 @@
+{
+    "name": "liquidlight/typo3-call-to-actions",
+    "description": "Shared Call to Action repository and plugin, to allow display of your CTAs",
+    "license": "GPL-2.0+",
+    "type": "typo3-cms-extension",
+    "version": "2.0.1",
+    "keywords": [
+        "TYPO3 CMS",
+        "CTAs",
+        "Promos"
+    ],
+    "readme": "./README.md",
+    "authors": [
+        {
+            "name": "Liquid Light",
+            "email": "info@liquidlight.co.uk",
+            "homepage": "https://www.liquidlight.co.uk/"
+        },
+        {
+            "name": "Mike Street",
+            "email": "mike@liquidlight.co.uk"
+        }
+    ],
+    "homepage": "https://github.com/liquidlight/typo3-call-to-actions",
+    "support": {
+        "issues": "https://github.com/liquidlight/typo3-call-to-actions/issues",
+        "source": "https://github.com/liquidlight/typo3-call-to-actions",
+        "docs": "https://docs.typo3.org/p/liquidlight/typo3-call-to-actions/master/en-us/"
+    },
+    "require": {
+        "typo3/cms-core": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "LiquidLight\\CallToActions\\": "Classes"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "call_to_actions"
+        }
+    },
+    "scripts": {
+        "prepare-release": [
+            "rm -rf .github",
+            "rm .gitignore",
+            "rm .project.php_cs"
+        ]
+    }
+}
